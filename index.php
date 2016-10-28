@@ -1,7 +1,5 @@
 <?php 
 
-
-
  ?>
 
  <!DOCTYPE html>
@@ -10,7 +8,23 @@
  	<meta charset="UTF-8">
  	<title>Site</title>
  </head>
+
+	<header class="">
+		<div class="logo">
+			<img src="" alt=""/>LOGO		
+		</div>
+		<nav>
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Presentation</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a href="">Blabla</a></li>
+			</ul>
+		</nav>
+	</header><!-- /header -->
+
+
  <body>
- 	<p>TEST 1.0</p>
+ 	
  </body>
  </html>
