@@ -29,17 +29,17 @@
 
 
 	<section>
-			<img src="https://upload.wikimedia.org/wikipedia/fr/0/02/Logo_%C3%89quipe_Canada_Vancouver_2010.png" 
+			<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" 
 			width = "300px" height="300px" alt="logo canada"/>
 
-			<img src="https://upload.wikimedia.org/wikipedia/fr/0/02/Logo_%C3%89quipe_Canada_Vancouver_2010.png" 
+			<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" 
 			width = "300px" height="300px" alt="logo canada"/>
 		
 	</section>
 
 	<aside>
         
-        <form action="" method="">
+        <form action="contact.php" method="POST">
             <label for="user">      <input type="text" name="user" id="user"  placeholder="user"/>          </label>
             <label for="password"> <input type="password" name="password" id="password" placeholder="password"/></label>
             <button type="submit" name="submit">Envoyer</button>
