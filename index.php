@@ -6,12 +6,14 @@
  <html lang="fr">
  <head>
  	<meta charset="UTF-8">
+ 	<link rel="stylesheet" type="text/css" href="style.css">
  	<title>Site</title>
  </head>
 
 	<header class="">
 		<div class="logo">
-			<img src="" alt=""/>LOGO		
+			<img src="https://upload.wikimedia.org/wikipedia/fr/0/02/Logo_%C3%89quipe_Canada_Vancouver_2010.png" 
+			width = "100px" height="100px" alt="logo canada"/>	
 		</div>
 		<nav>
 			<ul>
