@@ -15,7 +15,7 @@ header {
 
 nav {
     width: 75%;
-    float: left;
+    float: right;
 }
 
 nav ul{
@@ -33,3 +33,18 @@ nav ul li a{
     color: #000;
 }
 
+section{
+    width: 80%;
+    float: left;
+    
+}
+
+aside{
+    float: right;
+    padding: 2%;
+    margin-right: 1%;
+    width: 20%;
+    border: solid 1px #353535;
+    border-radius: 2px;
+    /*box-shadow: 2px 2px 2px #000;*/
+}
