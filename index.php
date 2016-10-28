@@ -30,26 +30,41 @@ require_once 'contact.php';
 
 
 	<section>
-			<img src="https://upload.wikimedia.org/wikipedia/fr/0/02/Logo_%C3%89quipe_Canada_Vancouver_2010.png" 
-			width = "300px" height="300px" alt="logo canada"/>
-
-			<img src="https://upload.wikimedia.org/wikipedia/fr/0/02/Logo_%C3%89quipe_Canada_Vancouver_2010.png" 
-			width = "300px" height="300px" alt="logo canada"/>
-		
+		<article>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+		<aside>
+			<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" alt=""/>
+		</aside>
+		<article>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+		<aside>
+			<img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" alt=""/>
+		</aside>
 	</section>
 
 	<aside>
-        
-      <form action="contact.php" method="POST">
-            <label for="user">
-                <input type="text" name="user" id="user" placeholder="user" /> </label>
-            <label for="password">
-                <input type="password" name="password" id="password" placeholder="password" />
-            </label>
+
+        <form action="" method="POST">
+            <label for="user">      <input type="text" name="user" id="user"  placeholder="user"/>          </label>
+            <label for="password"> <input type="password" name="password" id="password" placeholder="password"/></label>
             <button type="submit" name="submit">Envoyer</button>
         </form>
+       
 	</aside>
 	
+<footer><p>FOOTER</p></footer>
 
 </body>
 </html>
