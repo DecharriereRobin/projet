@@ -1,8 +1,11 @@
 body {
     margin: 0 auto;
-    background: linear-gradient(180deg, #ffffff 0%, #dddddd 100%);
 }
 
 header {
     width: 100%;
+}
+
+.logo {
+    float: left;
 }

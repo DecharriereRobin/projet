@@ -9,7 +9,7 @@
  	<link rel="stylesheet" type="text/css" href="css/style.css">
  	<title>Site</title>
  </head>
-
+<body>
 	<header class="">
 		<div class="logo">
 			<img src="https://upload.wikimedia.org/wikipedia/fr/0/02/Logo_%C3%89quipe_Canada_Vancouver_2010.png" 
@@ -25,7 +25,7 @@
 		</nav>
 	</header><!-- /header -->
 
- <body>
+ 
  	<form action="" method="">
 		<label for="user">      <input type="text" name="user" id="user"  placeholder="user"/>          </label>
 		<label for="password"> <input type="password" name="password" id="password" placeholder="password"/></label>
@@ -33,7 +33,7 @@
 		<button type="submit" name="create">Éditer</button>
 		<button type="submit" name="delete">Effacer</button>
  	</form>
- </body>
- </html>
+</body>
+</html>
 
 
