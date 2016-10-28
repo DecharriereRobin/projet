@@ -1,7 +1,6 @@
 <?php 
-//require_once 'contact.php';
- ?>
-
+include 'contact.php';
+?>
  <!DOCTYPE html>
  <html lang="fr">
  <head>
@@ -66,5 +65,3 @@
 <footer><p>FOOTER</p></footer>
 </body>
 </html>
-
-
