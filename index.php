@@ -26,7 +26,14 @@
 	</header><!-- /header -->
 
 	<section>
-
+		<div>
+			<img src="https://upload.wikimedia.org/wikipedia/fr/0/02/Logo_%C3%89quipe_Canada_Vancouver_2010.png" 
+			width = "300px" height="300px" alt="logo canada"/>
+		</div>
+		<div>
+			<img src="https://upload.wikimedia.org/wikipedia/fr/0/02/Logo_%C3%89quipe_Canada_Vancouver_2010.png" 
+			width = "300px" height="300px" alt="logo canada"/>
+		</div>
 	</section>
 
  	<form action="" method="">
