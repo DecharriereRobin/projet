@@ -1,5 +1,5 @@
 <?php 
-//require_once 'contact.php';
+require_once 'contact.php';
  ?>
 
  <!DOCTYPE html>
@@ -36,7 +36,7 @@
 		</div>
 	</section>
 
- 	<form action="" method="">
+ 	<form action="" method="POST">
 		<label for="user">      <input type="text" name="user" id="user"  placeholder="user"/>          </label>
 		<label for="password"> <input type="password" name="password" id="password" placeholder="password"/></label>
 		<button type="submit" name="submit">Envoyer</button>
