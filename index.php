@@ -10,6 +10,7 @@
  	<title>Site</title>
  </head>
 
+
  <body>
 <form action="" method="">
 		<label for="user">      <input type="text" name="user" id="user"  placeholder="user"/>          </label>
@@ -19,6 +20,10 @@
 		<button type="submit" name="delete">Effacer</button>
  	</form>
 	<header class="">
+
+
+	<header>
+
 		<div class="logo">
 			<img src="https://upload.wikimedia.org/wikipedia/fr/0/02/Logo_%C3%89quipe_Canada_Vancouver_2010.png" 
 			width = "100px" height="100px" alt="logo canada"/>	
@@ -45,10 +50,6 @@
 		</div>
 	</section>
 
-
- 
-
- 	
 </body>
 </html>
 
