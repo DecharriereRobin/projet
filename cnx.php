@@ -1,11 +1,11 @@
 <?php 
-define('DSN', '');
-define('DBNAME', '');
-define('LOGIN', '');
+define('DSN', 'localhost');
+define('DBNAME', 'accesstable');
+define('LOGIN', 'root');
 define('MOT_DE_PASSE', '');
 $options = array(PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC, 
         // on change la methode de recuperation des données (tableau associatif) par defaut
-        PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING)
+        PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING);
         //Afficher les erreurs MySql dans le php ou alors dans le PDO::ERRMODE_EXCEPTION
         //Rien à voir avec la config php.ini, ce sont des erreurs MySql interpretées par PDO
 
@@ -49,24 +49,4 @@ echo "Pilotes SGBD disponibles : " . implode(', ', PDO::getAvailableDrivers())."
 
 echo 'Version de PHP : (', PHP_VERSION, ')'."<br />", PHP_EOL;
 
-// echo 'Version de PHP : ' . PHP_VERSION . "\n";
-
-
-if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
-    echo 'J\'ai au moins la version 5.3.0 de PHP ; ma version : ' . PHP_VERSION . "\n";
-}
-
-if (version_compare(PHP_VERSION, '5.0.0', '>=')) {
-    echo 'J\'utilise PHP 5 ; ma version : ' . PHP_VERSION . "\n";
-}
-
-if (version_compare(PHP_VERSION, '5.0.0', '<')) {
-    echo 'J\'utilise PHP 4 ; ma version : ' . PHP_VERSION . "\n";
-}
-
-
-if (function_exists('get_magic_quotes_gpc') && get_magic_quotes_gpc()) {
-    echo "La fonctionnalité magic_quotes_gpc est active. Veuillez la désactiver.", PHP_EOL;
-
-}
 ?>

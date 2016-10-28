@@ -1,5 +1,5 @@
 <?php 
-
+//require_once 'contact.php';
  ?>
 
  <!DOCTYPE html>
@@ -10,7 +10,7 @@
  	<title>Site</title>
  </head>
 <body>
-	<header class="">
+	<header>
 		<div class="logo">
 			<img src="https://upload.wikimedia.org/wikipedia/fr/0/02/Logo_%C3%89quipe_Canada_Vancouver_2010.png" 
 			width = "100px" height="100px" alt="logo canada"/>	
@@ -25,7 +25,16 @@
 		</nav>
 	</header><!-- /header -->
 
- 
+	<section>
+		<div>
+			<img src="https://upload.wikimedia.org/wikipedia/fr/0/02/Logo_%C3%89quipe_Canada_Vancouver_2010.png" 
+			width = "300px" height="300px" alt="logo canada"/>
+		</div>
+		<div>
+			<img src="https://upload.wikimedia.org/wikipedia/fr/0/02/Logo_%C3%89quipe_Canada_Vancouver_2010.png" 
+			width = "300px" height="300px" alt="logo canada"/>
+		</div>
+	</section>
  	<form action="" method="">
 		<label for="user">      <input type="text" name="user" id="user"  placeholder="user"/>          </label>
 		<label for="password"> <input type="password" name="password" id="password" placeholder="password"/></label>
